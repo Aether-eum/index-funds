@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "All Round Gothic";
+  src: url("assets/fonts/AllRoundGothic.ttf");
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'All Round Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

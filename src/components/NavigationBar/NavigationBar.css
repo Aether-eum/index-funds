@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "FAB";
+    src: url("../../assets/fonts/FAB.otf");
+  }
+  @font-face {
+    font-family: "FAS";
+    src: url("../../assets/fonts/FAS.otf");
+}
+@font-face {
+  font-family: "FAR";
+  src: url("../../assets/fonts/FAR.otf");
+}
+@font-face {
+  font-family: "All Round Gothic";
+  src: url("../../assets/fonts/AllRoundGothic.ttf");
+}
+
+.head-icon {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

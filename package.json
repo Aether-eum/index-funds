@@ -1,0 +1,54 @@
+{
+  "name": "index-funds-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ethersproject/abi": "^5.3.1",
+    "@ethersproject/bignumber": "^5.3.0",
+    "@ethersproject/contracts": "^5.3.0",
+    "@ethersproject/providers": "^5.4.0",
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@walletconnect/web3-provider": "^1.4.1",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1",
+    "web3modal": "^1.9.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "notistack": "^1.0.9",
+    "react-router-dom": "^5.2.0"
+  }
+}
